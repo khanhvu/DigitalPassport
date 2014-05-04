@@ -51,6 +51,12 @@
             "path": "bootstrap.js",
             "x-bootstrap": true
         },
+         {
+            "path": "resources/js/jquery-2.1.0.min.js"
+        },
+        {
+            "path": "resources/js/jquery.transit.min.js"
+        },
         {
             "path": "app.js",
             "bundle": true,  /* Indicates that all class dependencies are concatenated into this file when build */

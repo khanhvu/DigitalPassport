@@ -29,12 +29,14 @@ Ext.define('DigitialPassport.view.PhotoActionSheet', {
                 xtype: 'button',
                 docked: 'top',
                 margin: 10,
+                itemId: 'TakePicture',
                 text: 'Take Picture'
             },
             {
                 xtype: 'button',
                 docked: 'top',
                 margin: 10,
+                itemId: 'ChoosePicture',
                 text: 'Choose Existing'
             },
             {

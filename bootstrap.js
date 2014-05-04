@@ -25,10 +25,12 @@ Ext.ClassManager.addNameAlternateMappings({
   "DigitialPassport.controller.ios.Main": [],
   "DigitialPassport.profile.Android": [],
   "DigitialPassport.profile.iOS": [],
+  "DigitialPassport.view.CameraTut": [],
   "DigitialPassport.view.FinishPanel": [],
   "DigitialPassport.view.PhotoActionSheet": [],
   "DigitialPassport.view.ProcessPanel": [],
   "DigitialPassport.view.StartPanel": [],
+  "DigitialPassport.view.Transform": [],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],
   "Ext.AbstractPlugin": [],
@@ -759,6 +761,9 @@ Ext.ClassManager.addNameAliasMappings({
   "DigitialPassport.controller.ios.Main": [],
   "DigitialPassport.profile.Android": [],
   "DigitialPassport.profile.iOS": [],
+  "DigitialPassport.view.CameraTut": [
+    "widget.cameratut"
+  ],
   "DigitialPassport.view.FinishPanel": [
     "widget.finishpanel"
   ],
@@ -770,6 +775,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "DigitialPassport.view.StartPanel": [
     "widget.startpanel"
+  ],
+  "DigitialPassport.view.Transform": [
+    "widget.transform"
   ],
   "Ext.AbstractComponent": [],
   "Ext.AbstractManager": [],

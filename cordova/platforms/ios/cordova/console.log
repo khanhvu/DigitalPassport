@@ -1,309 +1,62 @@
-2014-04-30 10:47:31.077 DigitalPassport[3154:80b] Multi-tasking -> Device: YES, App: YES
-2014-04-30 10:47:31.395 DigitalPassport[3154:80b] Unlimited access to network resources
-2014-04-30 10:47:33.696 DigitalPassport[3154:80b] Resetting plugins due to page load.
-2014-04-30 10:47:34.233 DigitalPassport[3154:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-04-30 11:07:43.848 DigitalPassport[3154:80b] CDVWebViewDelegate: Navigation started when state=1
-2014-04-30 11:07:43.849 DigitalPassport[3154:80b] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
-2014-04-30 11:07:43.849 DigitalPassport[3154:80b] Resetting plugins due to page load.
-2014-04-30 11:07:43.871 DigitalPassport[3154:80b] Failed to load webpage with error: The requested URL was not found on this server.
+2014-05-04 22:51:44.667 DigitalPassport[34387:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 22:51:44.676 DigitalPassport[34387:80b] Unlimited access to network resources
+2014-05-04 22:51:44.884 DigitalPassport[34387:80b] Resetting plugins due to page load.
+2014-05-04 22:51:45.126 DigitalPassport[34387:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 22:51:47.566 DigitalPassport[34387:80b] THREAD WARNING: ['Camera'] took '60.892090' ms. Plugin should use a background thread.
+2014-05-04 22:53:29.209 DigitalPassport[34650:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 22:53:29.218 DigitalPassport[34650:80b] Unlimited access to network resources
+2014-05-04 22:53:29.385 DigitalPassport[34650:80b] Resetting plugins due to page load.
+2014-05-04 22:53:29.679 DigitalPassport[34650:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 22:53:31.812 DigitalPassport[34650:80b] THREAD WARNING: ['Camera'] took '44.729004' ms. Plugin should use a background thread.
+2014-05-04 22:54:21.828 DigitalPassport[34910:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 22:54:21.838 DigitalPassport[34910:80b] Unlimited access to network resources
+2014-05-04 22:54:22.005 DigitalPassport[34910:80b] Resetting plugins due to page load.
+2014-05-04 22:54:22.286 DigitalPassport[34910:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 22:54:53.756 DigitalPassport[34910:80b] THREAD WARNING: ['Camera'] took '42.757080' ms. Plugin should use a background thread.
+2014-05-04 22:55:29.795 DigitalPassport[35174:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 22:55:29.804 DigitalPassport[35174:80b] Unlimited access to network resources
+2014-05-04 22:55:30.011 DigitalPassport[35174:80b] Resetting plugins due to page load.
+2014-05-04 22:55:30.254 DigitalPassport[35174:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 22:55:33.884 DigitalPassport[35174:80b] THREAD WARNING: ['Camera'] took '43.320801' ms. Plugin should use a background thread.
+2014-05-04 22:59:05.875 DigitalPassport[35449:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 22:59:05.884 DigitalPassport[35449:80b] Unlimited access to network resources
+2014-05-04 22:59:06.050 DigitalPassport[35449:80b] Resetting plugins due to page load.
+2014-05-04 22:59:06.345 DigitalPassport[35449:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 22:59:22.032 DigitalPassport[35449:80b] THREAD WARNING: ['Camera'] took '43.052979' ms. Plugin should use a background thread.
+2014-05-04 23:00:09.871 DigitalPassport[35740:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 23:00:09.880 DigitalPassport[35740:80b] Unlimited access to network resources
+2014-05-04 23:00:10.059 DigitalPassport[35740:80b] Resetting plugins due to page load.
+2014-05-04 23:00:10.373 DigitalPassport[35740:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 23:02:28.719 DigitalPassport[35740:80b] THREAD WARNING: ['Camera'] took '42.695068' ms. Plugin should use a background thread.
 Terminating in response to SpringBoard's termination.
-2014-04-30 11:08:44.515 DigitalPassport[3409:80b] Multi-tasking -> Device: YES, App: YES
-2014-04-30 11:08:44.523 DigitalPassport[3409:80b] Unlimited access to network resources
-2014-04-30 11:08:44.686 DigitalPassport[3409:80b] Resetting plugins due to page load.
-2014-04-30 11:08:44.930 DigitalPassport[3409:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
+2014-05-04 23:07:19.943 DigitalPassport[36045:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 23:07:19.952 DigitalPassport[36045:80b] Unlimited access to network resources
+2014-05-04 23:07:20.122 DigitalPassport[36045:80b] Resetting plugins due to page load.
+2014-05-04 23:07:20.398 DigitalPassport[36045:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 23:07:22.767 DigitalPassport[36045:80b] THREAD WARNING: ['Camera'] took '47.144043' ms. Plugin should use a background thread.
 Terminating in response to SpringBoard's termination.
-2014-04-30 11:09:56.576 DigitalPassport[3638:80b] Multi-tasking -> Device: YES, App: YES
-2014-04-30 11:09:56.585 DigitalPassport[3638:80b] Unlimited access to network resources
-2014-04-30 11:09:56.764 DigitalPassport[3638:80b] Resetting plugins due to page load.
-2014-04-30 11:09:56.968 DigitalPassport[3638:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-04-30 11:21:56.940 DigitalPassport[3886:80b] Multi-tasking -> Device: YES, App: YES
-2014-04-30 11:21:56.950 DigitalPassport[3886:80b] Unlimited access to network resources
-2014-04-30 11:21:57.124 DigitalPassport[3886:80b] Resetting plugins due to page load.
-2014-04-30 11:21:57.354 DigitalPassport[3886:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-04-30 22:55:58.646 DigitalPassport[708:80b] Multi-tasking -> Device: YES, App: YES
-2014-04-30 22:55:58.781 DigitalPassport[708:80b] Unlimited access to network resources
-2014-04-30 22:56:00.234 DigitalPassport[708:80b] Resetting plugins due to page load.
-2014-04-30 22:56:00.839 DigitalPassport[708:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 10:20:30.867 DigitalPassport[782:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 10:20:31.551 DigitalPassport[782:80b] Unlimited access to network resources
-2014-05-02 10:20:32.822 DigitalPassport[782:80b] Resetting plugins due to page load.
-2014-05-02 10:20:33.444 DigitalPassport[782:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 10:21:09.386 DigitalPassport[782:80b] Resetting plugins due to page load.
-2014-05-02 10:21:09.546 DigitalPassport[782:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 10:25:29.368 DigitalPassport[1024:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 10:25:29.377 DigitalPassport[1024:80b] Unlimited access to network resources
-2014-05-02 10:25:29.538 DigitalPassport[1024:80b] Resetting plugins due to page load.
-2014-05-02 10:25:29.780 DigitalPassport[1024:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 10:25:42.175 DigitalPassport[1024:80b] Resetting plugins due to page load.
-2014-05-02 10:25:42.328 DigitalPassport[1024:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 10:28:40.128 DigitalPassport[1270:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 10:28:40.136 DigitalPassport[1270:80b] Unlimited access to network resources
-2014-05-02 10:28:40.210 DigitalPassport[1270:80b] Resetting plugins due to page load.
-2014-05-02 10:28:40.477 DigitalPassport[1270:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 10:28:46.420 DigitalPassport[1270:80b] Resetting plugins due to page load.
-2014-05-02 10:28:46.572 DigitalPassport[1270:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 10:44:32.488 DigitalPassport[1640:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 10:44:32.497 DigitalPassport[1640:80b] Unlimited access to network resources
-2014-05-02 10:44:32.661 DigitalPassport[1640:80b] Resetting plugins due to page load.
-2014-05-02 10:44:32.906 DigitalPassport[1640:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 10:44:50.446 DigitalPassport[1640:80b] Resetting plugins due to page load.
-2014-05-02 10:44:50.592 DigitalPassport[1640:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 10:51:20.259 DigitalPassport[1960:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 10:51:20.268 DigitalPassport[1960:80b] Unlimited access to network resources
-2014-05-02 10:51:20.468 DigitalPassport[1960:80b] Resetting plugins due to page load.
-2014-05-02 10:51:20.660 DigitalPassport[1960:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 10:53:13.065 DigitalPassport[2190:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 10:53:13.074 DigitalPassport[2190:80b] Unlimited access to network resources
-2014-05-02 10:53:13.319 DigitalPassport[2190:80b] Resetting plugins due to page load.
-2014-05-02 10:53:13.486 DigitalPassport[2190:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 11:11:00.556 DigitalPassport[2447:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:11:00.565 DigitalPassport[2447:80b] Unlimited access to network resources
-2014-05-02 11:11:00.750 DigitalPassport[2447:80b] Resetting plugins due to page load.
-2014-05-02 11:11:00.949 DigitalPassport[2447:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 11:13:28.426 DigitalPassport[2681:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:13:28.435 DigitalPassport[2681:80b] Unlimited access to network resources
-2014-05-02 11:13:28.634 DigitalPassport[2681:80b] Resetting plugins due to page load.
-2014-05-02 11:13:28.800 DigitalPassport[2681:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 11:16:14.372 DigitalPassport[2912:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:16:14.381 DigitalPassport[2912:80b] Unlimited access to network resources
-2014-05-02 11:16:14.543 DigitalPassport[2912:80b] Resetting plugins due to page load.
-2014-05-02 11:16:14.785 DigitalPassport[2912:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 11:16:21.429 DigitalPassport[2912:80b] Resetting plugins due to page load.
-2014-05-02 11:16:21.572 DigitalPassport[2912:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 11:18:27.567 DigitalPassport[3145:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:18:27.577 DigitalPassport[3145:80b] Unlimited access to network resources
-2014-05-02 11:18:27.733 DigitalPassport[3145:80b] Resetting plugins due to page load.
-2014-05-02 11:18:27.985 DigitalPassport[3145:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 11:19:09.419 DigitalPassport[3358:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:19:09.428 DigitalPassport[3358:80b] Unlimited access to network resources
-2014-05-02 11:19:09.494 DigitalPassport[3358:80b] Resetting plugins due to page load.
-2014-05-02 11:19:09.683 DigitalPassport[3358:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 11:19:39.302 DigitalPassport[3575:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:19:39.314 DigitalPassport[3575:80b] Unlimited access to network resources
-2014-05-02 11:19:39.478 DigitalPassport[3575:80b] Resetting plugins due to page load.
-2014-05-02 11:19:39.724 DigitalPassport[3575:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 11:21:34.027 DigitalPassport[3819:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:21:34.036 DigitalPassport[3819:80b] Unlimited access to network resources
-2014-05-02 11:21:34.102 DigitalPassport[3819:80b] Resetting plugins due to page load.
-2014-05-02 11:21:34.321 DigitalPassport[3819:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 11:23:44.434 DigitalPassport[4071:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:23:44.443 DigitalPassport[4071:80b] Unlimited access to network resources
-2014-05-02 11:23:44.580 DigitalPassport[4071:80b] Resetting plugins due to page load.
-2014-05-02 11:23:44.845 DigitalPassport[4071:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 11:25:51.989 DigitalPassport[4285:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:25:51.995 DigitalPassport[4285:80b] Unlimited access to network resources
-2014-05-02 11:25:52.039 DigitalPassport[4285:80b] Resetting plugins due to page load.
-2014-05-02 11:25:52.143 DigitalPassport[4285:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 11:27:14.835 DigitalPassport[4501:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:27:14.844 DigitalPassport[4501:80b] Unlimited access to network resources
-2014-05-02 11:27:15.026 DigitalPassport[4501:80b] Resetting plugins due to page load.
-2014-05-02 11:27:15.222 DigitalPassport[4501:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 11:30:42.220 DigitalPassport[4768:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 11:30:42.229 DigitalPassport[4768:80b] Unlimited access to network resources
-2014-05-02 11:30:42.423 DigitalPassport[4768:80b] Resetting plugins due to page load.
-2014-05-02 11:30:42.622 DigitalPassport[4768:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 20:31:22.833 DigitalPassport[943:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 20:31:22.895 DigitalPassport[943:80b] Unlimited access to network resources
-2014-05-02 20:31:24.048 DigitalPassport[943:80b] Resetting plugins due to page load.
-2014-05-02 20:31:24.577 DigitalPassport[943:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 20:31:43.350 DigitalPassport[943:80b] Resetting plugins due to page load.
-2014-05-02 20:31:43.526 DigitalPassport[943:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 20:34:34.788 DigitalPassport[1180:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 20:34:34.797 DigitalPassport[1180:80b] Unlimited access to network resources
-2014-05-02 20:34:34.959 DigitalPassport[1180:80b] Resetting plugins due to page load.
-2014-05-02 20:34:35.203 DigitalPassport[1180:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 20:34:59.171 DigitalPassport[1391:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 20:34:59.179 DigitalPassport[1391:80b] Unlimited access to network resources
-2014-05-02 20:34:59.340 DigitalPassport[1391:80b] Resetting plugins due to page load.
-2014-05-02 20:34:59.591 DigitalPassport[1391:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 20:38:45.311 DigitalPassport[1645:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 20:38:45.320 DigitalPassport[1645:80b] Unlimited access to network resources
-2014-05-02 20:38:45.514 DigitalPassport[1645:80b] Resetting plugins due to page load.
-2014-05-02 20:38:45.709 DigitalPassport[1645:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 20:38:52.673 DigitalPassport[1645:80b] Resetting plugins due to page load.
-2014-05-02 20:38:52.827 DigitalPassport[1645:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 20:44:34.533 DigitalPassport[1894:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 20:44:34.542 DigitalPassport[1894:80b] Unlimited access to network resources
-2014-05-02 20:44:34.698 DigitalPassport[1894:80b] Resetting plugins due to page load.
-2014-05-02 20:44:34.936 DigitalPassport[1894:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 20:45:18.538 DigitalPassport[2109:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 20:45:18.548 DigitalPassport[2109:80b] Unlimited access to network resources
-2014-05-02 20:45:18.719 DigitalPassport[2109:80b] Resetting plugins due to page load.
-2014-05-02 20:45:18.958 DigitalPassport[2109:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 20:46:41.520 DigitalPassport[2337:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 20:46:41.529 DigitalPassport[2337:80b] Unlimited access to network resources
-2014-05-02 20:46:41.602 DigitalPassport[2337:80b] Resetting plugins due to page load.
-2014-05-02 20:46:41.810 DigitalPassport[2337:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 20:46:52.111 DigitalPassport[2337:80b] Resetting plugins due to page load.
-2014-05-02 20:46:52.266 DigitalPassport[2337:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 20:49:33.208 DigitalPassport[2679:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 20:49:33.218 DigitalPassport[2679:80b] Unlimited access to network resources
-2014-05-02 20:49:33.375 DigitalPassport[2679:80b] Resetting plugins due to page load.
-2014-05-02 20:49:33.621 DigitalPassport[2679:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 20:57:56.026 DigitalPassport[2973:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 20:57:56.035 DigitalPassport[2973:80b] Unlimited access to network resources
-2014-05-02 20:57:56.211 DigitalPassport[2973:80b] Resetting plugins due to page load.
-2014-05-02 20:57:56.530 DigitalPassport[2973:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 20:58:18.101 DigitalPassport[2973:80b] Resetting plugins due to page load.
-2014-05-02 20:58:18.243 DigitalPassport[2973:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 21:35:19.074 DigitalPassport[3698:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 21:35:19.083 DigitalPassport[3698:80b] Unlimited access to network resources
-2014-05-02 21:35:19.217 DigitalPassport[3698:80b] Resetting plugins due to page load.
-2014-05-02 21:35:19.497 DigitalPassport[3698:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 22:23:18.939 DigitalPassport[4238:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 22:23:18.948 DigitalPassport[4238:80b] Unlimited access to network resources
-2014-05-02 22:23:19.150 DigitalPassport[4238:80b] Resetting plugins due to page load.
-2014-05-02 22:23:19.349 DigitalPassport[4238:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 22:24:35.679 DigitalPassport[4467:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 22:24:35.688 DigitalPassport[4467:80b] Unlimited access to network resources
-2014-05-02 22:24:35.848 DigitalPassport[4467:80b] Resetting plugins due to page load.
-2014-05-02 22:24:36.087 DigitalPassport[4467:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-02 22:51:33.226 DigitalPassport[4963:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 22:51:33.235 DigitalPassport[4963:80b] Unlimited access to network resources
-2014-05-02 22:51:33.396 DigitalPassport[4963:80b] Resetting plugins due to page load.
-2014-05-02 22:51:33.644 DigitalPassport[4963:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-02 23:00:07.800 DigitalPassport[5539:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-02 23:00:07.809 DigitalPassport[5539:80b] Unlimited access to network resources
-2014-05-02 23:00:07.878 DigitalPassport[5539:80b] Resetting plugins due to page load.
-2014-05-02 23:00:08.181 DigitalPassport[5539:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-03 10:58:00.256 DigitalPassport[1117:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 10:58:00.314 DigitalPassport[1117:80b] Unlimited access to network resources
-2014-05-03 10:58:01.539 DigitalPassport[1117:80b] Resetting plugins due to page load.
-2014-05-03 10:58:02.158 DigitalPassport[1117:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/F4D40354-8112-406B-A6C7-DA92A2F17DF7/DigitalPassport.app/www/index.html
-2014-05-03 10:59:36.255 DigitalPassport[1340:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 10:59:36.265 DigitalPassport[1340:80b] Unlimited access to network resources
-2014-05-03 10:59:36.451 DigitalPassport[1340:80b] Resetting plugins due to page load.
-2014-05-03 10:59:36.746 DigitalPassport[1340:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 11:00:33.522 DigitalPassport[1340:80b] Resetting plugins due to page load.
-2014-05-03 11:00:33.731 DigitalPassport[1340:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 11:22:17.907 DigitalPassport[1750:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 11:22:17.916 DigitalPassport[1750:80b] Unlimited access to network resources
-2014-05-03 11:22:18.058 DigitalPassport[1750:80b] Resetting plugins due to page load.
-2014-05-03 11:22:18.317 DigitalPassport[1750:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-03 12:04:03.228 DigitalPassport[2196:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 12:04:03.237 DigitalPassport[2196:80b] Unlimited access to network resources
-2014-05-03 12:04:03.418 DigitalPassport[2196:80b] Resetting plugins due to page load.
-2014-05-03 12:04:03.626 DigitalPassport[2196:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-03 12:05:49.660 DigitalPassport[2462:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 12:05:49.669 DigitalPassport[2462:80b] Unlimited access to network resources
-2014-05-03 12:05:49.810 DigitalPassport[2462:80b] Resetting plugins due to page load.
-2014-05-03 12:05:50.071 DigitalPassport[2462:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-03 12:08:16.786 DigitalPassport[2727:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 12:08:16.794 DigitalPassport[2727:80b] Unlimited access to network resources
-2014-05-03 12:08:16.830 DigitalPassport[2727:80b] Resetting plugins due to page load.
-2014-05-03 12:08:17.046 DigitalPassport[2727:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-03 12:12:05.213 DigitalPassport[3008:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 12:12:05.222 DigitalPassport[3008:80b] Unlimited access to network resources
-2014-05-03 12:12:05.352 DigitalPassport[3008:80b] Resetting plugins due to page load.
-2014-05-03 12:12:05.592 DigitalPassport[3008:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 12:12:16.022 DigitalPassport[3008:80b] Resetting plugins due to page load.
-2014-05-03 12:12:16.193 DigitalPassport[3008:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-03 12:13:19.411 DigitalPassport[3273:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 12:13:19.420 DigitalPassport[3273:80b] Unlimited access to network resources
-2014-05-03 12:13:19.601 DigitalPassport[3273:80b] Resetting plugins due to page load.
-2014-05-03 12:13:19.831 DigitalPassport[3273:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-03 15:36:44.847 DigitalPassport[3929:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 15:36:44.856 DigitalPassport[3929:80b] Unlimited access to network resources
-2014-05-03 15:36:45.003 DigitalPassport[3929:80b] Resetting plugins due to page load.
-2014-05-03 15:36:45.240 DigitalPassport[3929:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-03 15:37:45.796 DigitalPassport[4190:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 15:37:45.805 DigitalPassport[4190:80b] Unlimited access to network resources
-2014-05-03 15:37:45.947 DigitalPassport[4190:80b] Resetting plugins due to page load.
-2014-05-03 15:37:46.192 DigitalPassport[4190:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 15:39:10.567 DigitalPassport[4463:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 15:39:10.576 DigitalPassport[4463:80b] Unlimited access to network resources
-2014-05-03 15:39:10.719 DigitalPassport[4463:80b] Resetting plugins due to page load.
-2014-05-03 15:39:10.988 DigitalPassport[4463:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 15:40:04.675 DigitalPassport[4728:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 15:40:04.684 DigitalPassport[4728:80b] Unlimited access to network resources
-2014-05-03 15:40:04.828 DigitalPassport[4728:80b] Resetting plugins due to page load.
-2014-05-03 15:40:05.084 DigitalPassport[4728:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 15:41:28.082 DigitalPassport[4991:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 15:41:28.091 DigitalPassport[4991:80b] Unlimited access to network resources
-2014-05-03 15:41:28.233 DigitalPassport[4991:80b] Resetting plugins due to page load.
-2014-05-03 15:41:28.455 DigitalPassport[4991:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 15:47:19.585 DigitalPassport[5282:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 15:47:19.594 DigitalPassport[5282:80b] Unlimited access to network resources
-2014-05-03 15:47:19.758 DigitalPassport[5282:80b] Resetting plugins due to page load.
-2014-05-03 15:47:19.974 DigitalPassport[5282:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 15:51:07.867 DigitalPassport[5556:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 15:51:07.876 DigitalPassport[5556:80b] Unlimited access to network resources
-2014-05-03 15:51:08.036 DigitalPassport[5556:80b] Resetting plugins due to page load.
-2014-05-03 15:51:08.269 DigitalPassport[5556:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 15:56:47.560 DigitalPassport[5918:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 15:56:47.569 DigitalPassport[5918:80b] Unlimited access to network resources
-2014-05-03 15:56:47.730 DigitalPassport[5918:80b] Resetting plugins due to page load.
-2014-05-03 15:56:47.929 DigitalPassport[5918:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 16:00:59.771 DigitalPassport[6213:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 16:00:59.780 DigitalPassport[6213:80b] Unlimited access to network resources
-2014-05-03 16:00:59.926 DigitalPassport[6213:80b] Resetting plugins due to page load.
-2014-05-03 16:01:00.215 DigitalPassport[6213:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/9F07FBDA-9C1E-4827-ACDC-0B97756D62ED/DigitalPassport.app/www/index.html
-2014-05-03 16:53:31.973 DigitalPassport[9144:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-03 16:53:31.981 DigitalPassport[9144:80b] Unlimited access to network resources
-2014-05-03 16:53:32.119 DigitalPassport[9144:80b] Resetting plugins due to page load.
-2014-05-03 16:53:32.443 DigitalPassport[9144:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
-2014-05-04 00:24:38.408 DigitalPassport[12381:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-04 00:24:38.417 DigitalPassport[12381:80b] Unlimited access to network resources
-2014-05-04 00:24:38.558 DigitalPassport[12381:80b] Resetting plugins due to page load.
-2014-05-04 00:24:38.784 DigitalPassport[12381:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
-2014-05-04 00:29:14.908 DigitalPassport[12660:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-04 00:29:14.918 DigitalPassport[12660:80b] Unlimited access to network resources
-2014-05-04 00:29:15.088 DigitalPassport[12660:80b] Resetting plugins due to page load.
-2014-05-04 00:29:15.271 DigitalPassport[12660:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-04 00:30:03.052 DigitalPassport[12922:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-04 00:30:03.061 DigitalPassport[12922:80b] Unlimited access to network resources
-2014-05-04 00:30:03.248 DigitalPassport[12922:80b] Resetting plugins due to page load.
-2014-05-04 00:30:03.440 DigitalPassport[12922:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
-2014-05-04 00:34:16.597 DigitalPassport[13166:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-04 00:34:16.603 DigitalPassport[13166:80b] Unlimited access to network resources
-2014-05-04 00:34:16.630 DigitalPassport[13166:80b] Resetting plugins due to page load.
-2014-05-04 00:34:16.744 DigitalPassport[13166:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-04 11:20:17.492 DigitalPassport[14647:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-04 11:20:17.501 DigitalPassport[14647:80b] Unlimited access to network resources
-2014-05-04 11:20:17.641 DigitalPassport[14647:80b] Resetting plugins due to page load.
-2014-05-04 11:20:17.904 DigitalPassport[14647:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
-2014-05-04 11:21:18.004 DigitalPassport[14904:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-04 11:21:18.013 DigitalPassport[14904:80b] Unlimited access to network resources
-2014-05-04 11:21:18.175 DigitalPassport[14904:80b] Resetting plugins due to page load.
-2014-05-04 11:21:18.397 DigitalPassport[14904:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
-2014-05-04 11:21:58.222 DigitalPassport[15161:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-04 11:21:58.231 DigitalPassport[15161:80b] Unlimited access to network resources
-2014-05-04 11:21:58.270 DigitalPassport[15161:80b] Resetting plugins due to page load.
-2014-05-04 11:21:58.552 DigitalPassport[15161:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
-2014-05-04 11:22:53.319 DigitalPassport[15422:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-04 11:22:53.329 DigitalPassport[15422:80b] Unlimited access to network resources
-2014-05-04 11:22:53.511 DigitalPassport[15422:80b] Resetting plugins due to page load.
-2014-05-04 11:22:53.691 DigitalPassport[15422:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
-2014-05-04 11:26:25.343 DigitalPassport[15727:80b] Multi-tasking -> Device: YES, App: YES
-2014-05-04 11:26:25.352 DigitalPassport[15727:80b] Unlimited access to network resources
-2014-05-04 11:26:25.497 DigitalPassport[15727:80b] Resetting plugins due to page load.
-2014-05-04 11:26:25.730 DigitalPassport[15727:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
-Terminating in response to SpringBoard's termination.
+2014-05-04 23:09:06.352 DigitalPassport[36313:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 23:09:06.362 DigitalPassport[36313:80b] Unlimited access to network resources
+2014-05-04 23:09:06.434 DigitalPassport[36313:80b] Resetting plugins due to page load.
+2014-05-04 23:09:06.755 DigitalPassport[36313:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 23:09:28.001 DigitalPassport[36313:80b] THREAD WARNING: ['Camera'] took '42.506104' ms. Plugin should use a background thread.
+2014-05-04 23:10:16.721 DigitalPassport[36576:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 23:10:16.730 DigitalPassport[36576:80b] Unlimited access to network resources
+2014-05-04 23:10:16.895 DigitalPassport[36576:80b] Resetting plugins due to page load.
+2014-05-04 23:10:17.177 DigitalPassport[36576:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 23:10:25.221 DigitalPassport[36576:80b] THREAD WARNING: ['Camera'] took '42.152832' ms. Plugin should use a background thread.
+2014-05-04 23:11:06.331 DigitalPassport[36837:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 23:11:06.340 DigitalPassport[36837:80b] Unlimited access to network resources
+2014-05-04 23:11:06.509 DigitalPassport[36837:80b] Resetting plugins due to page load.
+2014-05-04 23:11:06.784 DigitalPassport[36837:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 23:11:29.610 DigitalPassport[36837:80b] THREAD WARNING: ['Camera'] took '42.672119' ms. Plugin should use a background thread.
+2014-05-04 23:12:47.119 DigitalPassport[37100:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 23:12:47.128 DigitalPassport[37100:80b] Unlimited access to network resources
+2014-05-04 23:12:47.318 DigitalPassport[37100:80b] Resetting plugins due to page load.
+2014-05-04 23:12:47.558 DigitalPassport[37100:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 23:12:56.686 DigitalPassport[37100:80b] THREAD WARNING: ['Camera'] took '42.055908' ms. Plugin should use a background thread.
+2014-05-04 23:14:51.258 DigitalPassport[37367:80b] Multi-tasking -> Device: YES, App: YES
+2014-05-04 23:14:51.268 DigitalPassport[37367:80b] Unlimited access to network resources
+2014-05-04 23:14:51.430 DigitalPassport[37367:80b] Resetting plugins due to page load.
+2014-05-04 23:14:51.717 DigitalPassport[37367:80b] Finished load of: file:///Users/khanhvu/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/186EF033-BF2B-4E9F-BF8E-F4A98B5F210A/DigitalPassport.app/www/index.html
+2014-05-04 23:14:56.703 DigitalPassport[37367:80b] THREAD WARNING: ['Camera'] took '41.728027' ms. Plugin should use a background thread.

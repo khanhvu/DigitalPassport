@@ -1,10 +1,10 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "file": "plugins/org.apache.cordova.device/www/device.js",
-        "id": "org.apache.cordova.device.device",
+        "file": "plugins/com.synconset.imagepicker/www/imagepicker.js",
+        "id": "com.synconset.imagepicker.ImagePicker",
         "clobbers": [
-            "device"
+            "plugins.imagePicker"
         ]
     },
     {
@@ -36,27 +36,19 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/com.synconset.imagepicker/www/imagepicker.js",
-        "id": "com.synconset.imagepicker.ImagePicker",
+        "file": "plugins/org.apache.cordova.device/www/device.js",
+        "id": "org.apache.cordova.device.device",
         "clobbers": [
-            "plugins.imagePicker"
-        ]
-    },
-    {
-        "file": "plugins/com.jcjee.plugins.emailcomposer/www/EmailComposer.js",
-        "id": "com.jcjee.plugins.emailcomposer.EmailComposer",
-        "clobbers": [
-            "EmailComposer"
+            "device"
         ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.device": "0.2.9",
-    "org.apache.cordova.camera": "0.2.9",
     "com.synconset.imagepicker": "1.0.3",
-    "com.jcjee.plugins.emailcomposer": "1.4.6"
+    "org.apache.cordova.camera": "0.2.9",
+    "org.apache.cordova.device": "0.2.9"
 }
 // BOTTOM OF METADATA
 });

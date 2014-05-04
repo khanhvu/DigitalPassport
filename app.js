@@ -11,6 +11,8 @@ Ext.application({
         'ProcessPanel',
         'FinishPanel',
         'PhotoActionSheet',
+        'CameraTut',
+        'Transform'
     ],
     
     
@@ -25,8 +27,11 @@ Ext.application({
         Ext.Viewport.add({
             xtype:'finishpanel'
         });
+        //  Ext.Viewport.add({
+        //     xtype:'processpanel'
+        // });
          Ext.Viewport.add({
-            xtype:'processpanel'
+            xtype:'cameratut'
         });
         
 
