@@ -15,8 +15,8 @@
 
 Ext.define('DigitialPassport.view.StartPanel', {
     extend: 'Ext.Panel',
-    alias: 'widget.startpanel',
-
+    //alias: 'widget.startpanel',
+    xtype:'startpanel',
     requires: [
         'Ext.carousel.Carousel',
         'Ext.Panel',

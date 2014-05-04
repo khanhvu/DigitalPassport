@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -39,6 +38,24 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		AA75FD5E40594871BC072417 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D3182817FC5C4503A5079BED /* CDVDevice.m */; };
+		B4140EDE804249A5AE1D870C /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 1685C2B1FFA04DDD97FACD3D /* CDVCamera.m */; };
+		E7E9CEC1967A475FB6EA6C77 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F22825F90F438CA810839F /* CDVJpegHeaderWriter.m */; };
+		1D7D48E791B3499CBFCEDE96 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9889E70112024BE2865D6F8A /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		780C887141404F03B651919D /* SOSPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A97585E98067421592180279 /* SOSPicker.m */; };
+		A89E16453DBB441BBFB84132 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EB15EC4C540C983E40204 /* ELCAlbumPickerController.m */; };
+		F59446B83C81438DAD32366B /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A26B791F4AB4A0BB4845D5C /* ELCAsset.m */; };
+		830927F6BE4641649AC5609E /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45007C8AEDF444D9BC358AC6 /* ELCAssetCell.m */; };
+		093A7E00B1704281A5E41FDB /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB494AEB80845D0908C529B /* ELCAssetTablePicker.m */; };
+		DF0D77AF50B94C179564372F /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 288B89A1619E487595990B9C /* ELCImagePickerController.m */; };
+		385C4CE6E12E4B1E9F82BB3D /* ELCAlbumPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 102103F8ABE24EA49A302C50 /* ELCAlbumPickerController.xib */; };
+		908BAB4CE835463F9DA41512 /* ELCAssetPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FE919080445474E8E9DE0BE /* ELCAssetPicker.xib */; };
+		FCDB6C950650428E894AF61C /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FC76CD77B354EA8B6F6168A /* ELCAssetTablePicker.xib */; };
+		D8E8516CEF3F41D9A5EED6F5 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 564035E731D54B5C99FEDAB0 /* Overlay.png */; };
+		A4A863493E9E4785B51372AC /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D17038267464D6DA5EAF290 /* Overlay@2x.png */; };
+		109912CD29A546FDA3D3FE41 /* EmailComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 831320ECAA5E4435ABA075E4 /* EmailComposer.m */; };
+		0748E52A910341449220B7C5 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 665C6B6DEA654C71842113A4 /* NSData+Base64.m */; };
+		BD86DDFCBF3E49D6933A4983 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1933E3CE65E48F29B714371 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +120,38 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "DigitalPassport/config.xml"; sourceTree = "<group>"; };
+		D3182817FC5C4503A5079BED /* CDVDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVDevice.m"; path = "org.apache.cordova.device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		79E9949B2796439C9AC46735 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1685C2B1FFA04DDD97FACD3D /* CDVCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVCamera.m"; path = "org.apache.cordova.camera/CDVCamera.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		C1F22825F90F438CA810839F /* CDVJpegHeaderWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVJpegHeaderWriter.m"; path = "org.apache.cordova.camera/CDVJpegHeaderWriter.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		B1C7EBBCC6AB4CB7A9653548 /* CDVCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVCamera.h"; path = "org.apache.cordova.camera/CDVCamera.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		101FBC6ABF724B15BADA7FE0 /* CDVJpegHeaderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVJpegHeaderWriter.h"; path = "org.apache.cordova.camera/CDVJpegHeaderWriter.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D6D2F0F56B3546DBA33FA0FC /* CDVExif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVExif.h"; path = "org.apache.cordova.camera/CDVExif.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9889E70112024BE2865D6F8A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		A97585E98067421592180279 /* SOSPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SOSPicker.m"; path = "com.synconset.imagepicker/SOSPicker.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		586EB15EC4C540C983E40204 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ELCAlbumPickerController.m"; path = "com.synconset.imagepicker/ELCAlbumPickerController.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6A26B791F4AB4A0BB4845D5C /* ELCAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ELCAsset.m"; path = "com.synconset.imagepicker/ELCAsset.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		45007C8AEDF444D9BC358AC6 /* ELCAssetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ELCAssetCell.m"; path = "com.synconset.imagepicker/ELCAssetCell.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6EB494AEB80845D0908C529B /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ELCAssetTablePicker.m"; path = "com.synconset.imagepicker/ELCAssetTablePicker.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		288B89A1619E487595990B9C /* ELCImagePickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ELCImagePickerController.m"; path = "com.synconset.imagepicker/ELCImagePickerController.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F4A58ED19D7C418FA54E950E /* SOSPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SOSPicker.h"; path = "com.synconset.imagepicker/SOSPicker.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		44D9F21A576649F397EE0F50 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ELCAlbumPickerController.h"; path = "com.synconset.imagepicker/ELCAlbumPickerController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		9859919BBFCE4371B623DD29 /* ELCAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ELCAsset.h"; path = "com.synconset.imagepicker/ELCAsset.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		5C4D8BA248E24905B735B630 /* ELCAssetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ELCAssetCell.h"; path = "com.synconset.imagepicker/ELCAssetCell.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B0A158C33CB04D15B2FC13EF /* ELCAssetPickerFilterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ELCAssetPickerFilterDelegate.h"; path = "com.synconset.imagepicker/ELCAssetPickerFilterDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EE45E3554D9C47DD84BF52E7 /* ELCAssetSelectionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ELCAssetSelectionDelegate.h"; path = "com.synconset.imagepicker/ELCAssetSelectionDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E0C946786B7C421FB808551D /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ELCAssetTablePicker.h"; path = "com.synconset.imagepicker/ELCAssetTablePicker.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7DB4764524324BF5A6C0E232 /* ELCImagePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ELCImagePickerController.h"; path = "com.synconset.imagepicker/ELCImagePickerController.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		102103F8ABE24EA49A302C50 /* ELCAlbumPickerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "ELCAlbumPickerController.xib"; path = "ELCAlbumPickerController.xib"; sourceTree = "<group>"; fileEncoding = 4; };
+		4FE919080445474E8E9DE0BE /* ELCAssetPicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "ELCAssetPicker.xib"; path = "ELCAssetPicker.xib"; sourceTree = "<group>"; fileEncoding = 4; };
+		1FC76CD77B354EA8B6F6168A /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "ELCAssetTablePicker.xib"; path = "ELCAssetTablePicker.xib"; sourceTree = "<group>"; fileEncoding = 4; };
+		564035E731D54B5C99FEDAB0 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "Overlay.png"; path = "Overlay.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		0D17038267464D6DA5EAF290 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "Overlay@2x.png"; path = "Overlay@2x.png"; sourceTree = "<group>"; fileEncoding = 4; };
+		831320ECAA5E4435ABA075E4 /* EmailComposer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EmailComposer.m"; path = "com.jcjee.plugins.emailcomposer/EmailComposer.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		665C6B6DEA654C71842113A4 /* NSData+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "com.jcjee.plugins.emailcomposer/NSData+Base64.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		8E8CC834A0CE4EBEB23EE937 /* EmailComposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EmailComposer.h"; path = "com.jcjee.plugins.emailcomposer/EmailComposer.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		0F536221CCB64C0A922D09A8 /* NSData+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "com.jcjee.plugins.emailcomposer/NSData+Base64.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		B1933E3CE65E48F29B714371 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +164,8 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
+				1D7D48E791B3499CBFCEDE96 /* ImageIO.framework in Frameworks */,
+				BD86DDFCBF3E49D6933A4983 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +247,11 @@
 				308D052D1370CCF300D202BF /* icons */,
 				308D05311370CCF300D202BF /* splash */,
 				8D1107310486CEB800E47090 /* DigitalPassport-Info.plist */,
+				102103F8ABE24EA49A302C50 /* ELCAlbumPickerController.xib */,
+				4FE919080445474E8E9DE0BE /* ELCAssetPicker.xib */,
+				1FC76CD77B354EA8B6F6168A /* ELCAssetTablePicker.xib */,
+				564035E731D54B5C99FEDAB0 /* Overlay.png */,
+				0D17038267464D6DA5EAF290 /* Overlay@2x.png */,
 			);
 			name = Resources;
 			path = "DigitalPassport/Resources";
@@ -208,6 +264,8 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				9889E70112024BE2865D6F8A /* ImageIO.framework */,
+				B1933E3CE65E48F29B714371 /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,6 +281,31 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				D3182817FC5C4503A5079BED /* CDVDevice.m */,
+				79E9949B2796439C9AC46735 /* CDVDevice.h */,
+				1685C2B1FFA04DDD97FACD3D /* CDVCamera.m */,
+				C1F22825F90F438CA810839F /* CDVJpegHeaderWriter.m */,
+				B1C7EBBCC6AB4CB7A9653548 /* CDVCamera.h */,
+				101FBC6ABF724B15BADA7FE0 /* CDVJpegHeaderWriter.h */,
+				D6D2F0F56B3546DBA33FA0FC /* CDVExif.h */,
+				A97585E98067421592180279 /* SOSPicker.m */,
+				586EB15EC4C540C983E40204 /* ELCAlbumPickerController.m */,
+				6A26B791F4AB4A0BB4845D5C /* ELCAsset.m */,
+				45007C8AEDF444D9BC358AC6 /* ELCAssetCell.m */,
+				6EB494AEB80845D0908C529B /* ELCAssetTablePicker.m */,
+				288B89A1619E487595990B9C /* ELCImagePickerController.m */,
+				F4A58ED19D7C418FA54E950E /* SOSPicker.h */,
+				44D9F21A576649F397EE0F50 /* ELCAlbumPickerController.h */,
+				9859919BBFCE4371B623DD29 /* ELCAsset.h */,
+				5C4D8BA248E24905B735B630 /* ELCAssetCell.h */,
+				B0A158C33CB04D15B2FC13EF /* ELCAssetPickerFilterDelegate.h */,
+				EE45E3554D9C47DD84BF52E7 /* ELCAssetSelectionDelegate.h */,
+				E0C946786B7C421FB808551D /* ELCAssetTablePicker.h */,
+				7DB4764524324BF5A6C0E232 /* ELCImagePickerController.h */,
+				831320ECAA5E4435ABA075E4 /* EmailComposer.m */,
+				665C6B6DEA654C71842113A4 /* NSData+Base64.m */,
+				8E8CC834A0CE4EBEB23EE937 /* EmailComposer.h */,
+				0F536221CCB64C0A922D09A8 /* NSData+Base64.h */,
 			);
 			name = Plugins;
 			path = "DigitalPassport/Plugins";
@@ -316,7 +399,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 510;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__CLI__" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -386,6 +469,11 @@
 				7E7966E11810823500FA85AD /* icon-50@2x.png in Resources */,
 				7E7966E51810823500FA85AD /* icon-76@2x.png in Resources */,
 				30FC414916E50CA1004E6F35 /* icon-72@2x.png in Resources */,
+				385C4CE6E12E4B1E9F82BB3D /* ELCAlbumPickerController.xib in Resources */,
+				908BAB4CE835463F9DA41512 /* ELCAssetPicker.xib in Resources */,
+				FCDB6C950650428E894AF61C /* ELCAssetTablePicker.xib in Resources */,
+				D8E8516CEF3F41D9A5EED6F5 /* Overlay.png in Resources */,
+				A4A863493E9E4785B51372AC /* Overlay@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +505,17 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				AA75FD5E40594871BC072417 /* CDVDevice.m in Sources */,
+				B4140EDE804249A5AE1D870C /* CDVCamera.m in Sources */,
+				E7E9CEC1967A475FB6EA6C77 /* CDVJpegHeaderWriter.m in Sources */,
+				780C887141404F03B651919D /* SOSPicker.m in Sources */,
+				A89E16453DBB441BBFB84132 /* ELCAlbumPickerController.m in Sources */,
+				F59446B83C81438DAD32366B /* ELCAsset.m in Sources */,
+				830927F6BE4641649AC5609E /* ELCAssetCell.m in Sources */,
+				093A7E00B1704281A5E41FDB /* ELCAssetTablePicker.m in Sources */,
+				DF0D77AF50B94C179564372F /* ELCImagePickerController.m in Sources */,
+				109912CD29A546FDA3D3FE41 /* EmailComposer.m in Sources */,
+				0748E52A910341449220B7C5 /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

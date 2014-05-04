@@ -20,8 +20,13 @@ Ext.Loader.addClassPathMappings({
   "Ext.draw.engine.SvgContext.Gradient": "touch/src/draw/engine/SvgContext.js"
 });
 Ext.ClassManager.addNameAlternateMappings({
-  "DigitialPassport.controller.MainController": [],
+  "DigitialPassport.controller.Main": [],
+  "DigitialPassport.controller.android.Main": [],
+  "DigitialPassport.controller.ios.Main": [],
+  "DigitialPassport.profile.Android": [],
+  "DigitialPassport.profile.iOS": [],
   "DigitialPassport.view.FinishPanel": [],
+  "DigitialPassport.view.PhotoActionSheet": [],
   "DigitialPassport.view.ProcessPanel": [],
   "DigitialPassport.view.StartPanel": [],
   "Ext.AbstractComponent": [],
@@ -749,11 +754,16 @@ Ext.ClassManager.addNameAlternateMappings({
   ]
 });
 Ext.ClassManager.addNameAliasMappings({
-  "DigitialPassport.controller.MainController": [
-    "controller.maincontroller"
-  ],
+  "DigitialPassport.controller.Main": [],
+  "DigitialPassport.controller.android.Main": [],
+  "DigitialPassport.controller.ios.Main": [],
+  "DigitialPassport.profile.Android": [],
+  "DigitialPassport.profile.iOS": [],
   "DigitialPassport.view.FinishPanel": [
     "widget.finishpanel"
+  ],
+  "DigitialPassport.view.PhotoActionSheet": [
+    "widget.photoactionsheet"
   ],
   "DigitialPassport.view.ProcessPanel": [
     "widget.processpanel"
