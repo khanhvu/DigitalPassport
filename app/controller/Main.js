@@ -42,7 +42,8 @@ Ext.define('DigitialPassport.controller.Main', {
                 xtype: 'processpanel'
             },
 
-            picturePanelChoosen : 'processpanel panel[cls=process-panel-center]',
+            picturePanelChoosen : 'processpanel panel[cls=process-panel-center-img]',
+            picturePanelOuter : 'processpanel panel[cls=process-panel-center]',
             framePanel: 'processpanel panel[cls=process-panel-frame]',
 
             //processContainer: 'processpanel panel#processContainer',
@@ -184,11 +185,92 @@ Ext.define('DigitialPassport.controller.Main', {
         Ext.Viewport.animateActiveItem({xtype:'finishpanel'},{type: 'slide', direction: 'left'});
     },
 
+    onPickPhotoFailure: function(msg) {},
+
+    onPinchOrMoveStart: function(e) {
+        if (!this.isPinching) {
+            if (e.touches.length == 2) {
+                console.log("pinching");
+                this.isPinching = true;
+            } else {
+                this.imageMoveX = e.touch.pageX;
+                this.imageMoveY = e.touch.pageY;
+            }
+        }
+    },
+
+    onPinchOrMove: function(e) {
+        if (this.isPinching && e.touches.length >= 2) {
+            console.log('pinch');
+            var touch1 = e.touches[0];
+                touch2 = e.touches[1],
+                dist = this.getDistance({
+                    x: touch1.pageX,
+                    y: touch1.pageY
+                }, {
+                    x: touch2.pageX,
+                    y: touch2.pageY
+                });
+
+            if (!this.lastDist) {
+                this.lastDist = dist;
+            }
+
+            var scaleRatio = dist / this.lastDist,
+                scale = parseFloat(this.transformImage.css('scale'));
+
+            this.transformImage.css({scale: scale*scaleRatio});
+            this.lastDist = dist;
+        } else {
+            var moveX = e.touch.pageX - this.imageMoveX, 
+                moveY = e.touch.pageY - this.imageMoveY,
+                translate = this.transformImage.css('translate'),
+                curX = curY = 0;
+            
+            this.imageMoveX = e.touch.pageX;
+            this.imageMoveY = e.touch.pageY;
+
+            if (translate) {
+                translate = translate.split(",");
+                curX = parseInt(translate[0], 10);
+                curY = parseInt(translate[1], 10);
+            }
+
+            this.transformImage.css({
+                x: curX + moveX,
+                y: curY + moveY
+            });
+        }
+    },
+
+    onPinchOrMoveEnd: function(e) {
+        if (this.isPinching) {
+            var scale = parseFloat(this.transformImage.css('scale')),
+                restrictScale;
+
+            // check scale limit
+            if (scale > 20) restrictScale = 20;
+            else if (scale < 0.05) restrictScale = 0.05;
+
+            // resvers to limit only
+            if (restrictScale) {
+                this.transformImage.transition({scale: restrictScale});
+            }
+
+            this.lastDist = 0;
+            this.isPinching = false;
+        }
+    },
+
+
      /* HELPERS  */
       imageElement: function(dataOrUrl, onComplete) {
         var imageEl = new Image();
         imageEl.src = dataOrUrl;
         imageEl.onload = Ext.bind(onComplete, this, [imageEl]);
+    },
+    getDistance: function(p1, p2) {
+        return Math.sqrt(Math.pow((p2.x - p1.x), 2) + Math.pow((p2.y - p1.y), 2));
     },
     
 

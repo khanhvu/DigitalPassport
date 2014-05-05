@@ -105,32 +105,6 @@ Ext.define('DigitialPassport.controller.ios.Main', {
 
     onProcessPanelShow: function(){
 
-        // var p = this.getPicturePanelChoosen();
-        // var widthofP = p.element.getWidth();
-        // console.log(widthofP);
-
-        // var subWidth = widthofP * 90 / 100 ;
-
-        // console.log(subWidth);
-        // var calH = subWidth * 4 /3 ;
-        // console.log(calH);
-
-
-        // var frameC = this.getFramePanel();
-        // var widthOfFrame = frameC.element.getWidth();
-        // console.log('Frame:');
-        // console.log(widthOfFrame);
-
-        // frameC.setHeight(calH);
-
-
-
-        // var container1 = this.getPicturePanelChoosen(),
-        //             sWidth1 = container1.element.getWidth(),
-        //             sHeight1 = container1.element.getHeight();
-        //         console.log(sWidth1);
-        //         console.log(sHeight1);
-
         if (!this.transformImage) {
             
             this.imageElement(this.imgUrl, function(imageEl) {
@@ -179,11 +153,11 @@ Ext.define('DigitialPassport.controller.ios.Main', {
             });
 
             // handle for image zooming + moving
-            this.getPicturePanelChoosen().element.on({
+            this.getPicturePanelOuter().element.on({
                 scope: this,
-                // touchstart: this.onPinchOrMoveStart,
-                // touchmove: this.onPinchOrMove,
-                // touchend: this.onPinchOrMoveEnd
+                touchstart: this.onPinchOrMoveStart,
+                touchmove: this.onPinchOrMove,
+                touchend: this.onPinchOrMoveEnd
             });
 
             // show crop frame as default
