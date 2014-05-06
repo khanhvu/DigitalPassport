@@ -27,7 +27,7 @@ Ext.define('DigitialPassport.view.ProcessPanel', {
                 items: [
                     {
                         xtype: 'button',
-                        itemId: 'mybutton1',
+                        itemId: 'retakeBtn',
                         text: 'Retake'
                     },
                     {
@@ -92,7 +92,136 @@ Ext.define('DigitialPassport.view.ProcessPanel', {
                 xtype: 'panel',
                 docked: 'bottom',
                 height: '10%',
-                style: 'background-color: #cdcccc'
+                layout: 'hbox',
+                style: 'background-color: #cdcccc',
+                items: [
+                    {
+                        xtype: 'carousel',
+                        cls:'process-bottom-carousel',
+                        flex: 10,
+                        indicator: false,
+                        items: [
+                            {
+                                xtype: 'panel',
+                                layout: 'hbox',
+                                items: [
+                                    {
+                                        xtype: 'panel',
+                                        flex: 1,
+                                        layout: 'fit'
+                                    },
+                                    {
+                                        xtype: 'panel',
+                                        flex: 8,
+                                        items: [
+                                            {
+                                                xtype: 'label',
+                                                centered: true,
+                                                html: 'Put your head in the circle'
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        xtype: 'panel',
+                                        flex: 1,
+                                        layout: 'fit',
+                                        items: [
+                                            {
+                                                xtype: 'button',
+                                                centered: true,
+                                                ui: 'plain',
+                                                text: '>>',
+                                                itemId:'process-bottom-carousel-button-next-1'
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                xtype: 'panel',
+                                layout: 'hbox',
+                                items: [
+                                    {
+                                        xtype: 'panel',
+                                        flex: 1,
+                                        layout: 'fit',
+                                        items: [
+                                            {
+                                                xtype: 'button',
+                                                centered: true,
+                                                ui: 'plain',
+                                                text: '<<',
+                                                itemId:'process-bottom-carousel-button-previous-1'
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        xtype: 'panel',
+                                        flex: 8,
+                                        items: [
+                                            {
+                                                xtype: 'label',
+                                                centered: true,
+                                                html: 'Pinch and slide to edit'
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        xtype: 'panel',
+                                        flex: 1,
+                                        layout: 'fit',
+                                        items: [
+                                            {
+                                                xtype: 'button',
+                                                centered: true,
+                                                ui: 'plain',
+                                                text: '>>',
+                                                itemId:'process-bottom-carousel-button-next-2'
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                xtype: 'panel',
+                                layout: 'hbox',
+                                items: [
+                                    {
+                                        xtype: 'panel',
+                                        flex: 1,
+                                        layout: 'fit',
+                                        items: [
+                                            {
+                                                xtype: 'button',
+                                                centered: true,
+                                                ui: 'plain',
+                                                text: '<<',
+                                                itemId:'process-bottom-carousel-button-previous-2'
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        xtype: 'panel',
+                                        flex: 8,
+                                        items: [
+                                            {
+                                                xtype: 'label',
+                                                centered: true,
+                                                html: 'Maximum of head is 75% of photo'
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        xtype: 'panel',
+                                        flex: 1,
+                                        layout: 'fit'
+                                    }
+
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

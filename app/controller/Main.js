@@ -33,20 +33,21 @@ Ext.define('DigitialPassport.controller.Main', {
             okBtn: 'cameratut button#OkButton',
 
             //process panel
-            processpanelView: 'processpanel',
-
-            //photo action sheet    
             processpanelView: {
                 autoCreate: true,
                 selector: 'processpanel',
                 xtype: 'processpanel'
             },
-
             picturePanelChoosen : 'processpanel panel[cls=process-panel-center-img]',
             picturePanelOuter : 'processpanel panel[cls=process-panel-center]',
             framePanel: 'processpanel panel[cls=process-panel-frame]',
-
-            //processContainer: 'processpanel panel#processContainer',
+            processBottomCarousel: 'processpanel carousel[cls=process-bottom-carousel]',
+            processBottomButtonNext1:'processpanel button#process-bottom-carousel-button-next-1',
+            processBottomButtonNext2:'processpanel button#process-bottom-carousel-button-next-2',
+            processBottomButtonPrev1:'processpanel button#process-bottom-carousel-button-previous-1',
+            processBottomButtonPrev2:'processpanel button#process-bottom-carousel-button-previous-2',    
+            retakebtn:'processpanel button#retakeBtn',
+            donebtn:'processpanel button#doneBtn',
 
              // transform view
             transformView: 'transform',
@@ -62,13 +63,7 @@ Ext.define('DigitialPassport.controller.Main', {
         },
 
         control: {
-            "button#mybutton1": {
-                tap: 'onMybutton1Tap'
-            },
-            "button#mybutton2": {
-                tap: 'onMybutton2Tap'
-            },
-
+            
             //start panel
             startBtn: {
                 tap: 'onShowPhotoActionSheet'
@@ -98,6 +93,26 @@ Ext.define('DigitialPassport.controller.Main', {
             processpanelView:{
                 show: 'onProcessPanelShow'
             },
+            processBottomButtonNext1:{
+                tap:'onCarouselNext'
+            },
+            processBottomButtonNext2:{
+                tap:'onCarouselNext'
+            },
+            processBottomButtonPrev1:{
+                tap:'onCarouselPrev'
+            },
+            processBottomButtonPrev2:{
+                tap:'onCarouselPrev'
+            },
+            retakebtn: {
+                tap: 'onRetake'
+            },
+            donebtn: {
+                tap: 'onDone'
+            },
+
+
             // transform view
             transformView: {
                 show: 'onTransformViewShow'
@@ -117,8 +132,15 @@ Ext.define('DigitialPassport.controller.Main', {
        
     },
 
-    onMybutton1Tap: function(button, e, eOpts) {
-         Ext.Viewport.animateActiveItem({xtype:'startpanel'},{type: 'slide', direction: 'right'});
+    onRetake: function() {
+        this.transformImage = null;
+        var processP = this.getProcesspanelView();
+        processP.destroy();
+        Ext.Viewport.animateActiveItem({xtype:'startpanel'},{type: 'slide', direction: 'right'});
+       
+    },
+    onDone: function() {
+         Ext.Viewport.animateActiveItem({xtype:'finish'},{type: 'slide', direction: 'left'});
        
     },
 
@@ -178,8 +200,6 @@ Ext.define('DigitialPassport.controller.Main', {
     onCancelButtonTap:function(){
         this.getPhotoActionSheetView().hide();
     },
-
-
 
     onMybutton2Tap: function(button, e, eOpts) {
         Ext.Viewport.animateActiveItem({xtype:'finishpanel'},{type: 'slide', direction: 'left'});
@@ -261,7 +281,12 @@ Ext.define('DigitialPassport.controller.Main', {
             this.isPinching = false;
         }
     },
-
+    onCarouselNext: function(){
+        this.getProcessBottomCarousel().next();
+    },
+    onCarouselPrev: function(){
+        this.getProcessBottomCarousel().previous();    
+    },
 
      /* HELPERS  */
       imageElement: function(dataOrUrl, onComplete) {

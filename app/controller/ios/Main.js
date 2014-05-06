@@ -163,6 +163,9 @@ Ext.define('DigitialPassport.controller.ios.Main', {
             // show crop frame as default
             //this.onCrop1();
         }
+        else{
+            console.log('not exist picture');
+        }
     },
 
     
